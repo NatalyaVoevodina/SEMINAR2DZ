@@ -11,7 +11,7 @@ while (num > 0)
     num = num / 10;
 }
 if(count<3)
-    Console.WriteLine("{num2} - в данном числе третьей цифры нет");
+    Console.WriteLine($"{num2} - в данном числе третьей цифры нет");
 else
 {
     for (int i= 0; i<3; i++)
